@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationProperties</key>
+	<dict>
+		<key>ApplicationPath</key>
+		<string>Applications/AdventureEarth.app</string>
+		<key>Architectures</key>
+		<array>
+			<string>arm64</string>
+		</array>
+		<key>CFBundleIdentifier</key>
+		<string>com.adventure.earth</string>
+		<key>CFBundleShortVersionString</key>
+		<string>0.10.0</string>
+		<key>CFBundleVersion</key>
+		<string>0.10.0</string>
+		<key>SigningIdentity</key>
+		<string>Apple Development: kiattisak chuepran (G6DMTLKC88)</string>
+		<key>Team</key>
+		<string>97NA8W6YV6</string>
+	</dict>
+	<key>ArchiveVersion</key>
+	<integer>2</integer>
+	<key>CreationDate</key>
+	<date>2020-10-19T08:34:31Z</date>
+	<key>Name</key>
+	<string>AdventureEarth</string>
+	<key>SchemeName</key>
+	<string>AdventureEarth</string>
+</dict>
+</plist>

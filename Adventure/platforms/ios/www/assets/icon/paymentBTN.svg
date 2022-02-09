@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="302.621" height="60.724" viewBox="0 0 302.621 60.724">
+  <defs>
+    <filter id="Path_1462" x="0" y="0" width="302.621" height="60.724" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_2817" data-name="Group 2817" transform="translate(-532.379 -672.982)">
+    <g id="Group_2695" data-name="Group 2695" transform="translate(541.379 678.982)">
+      <g id="Symbol_65_16" data-name="Symbol 65 – 16" transform="translate(0)">
+        <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Path_1462)">
+          <path id="Path_1462-2" data-name="Path 1462" d="M5,0H279.621a5,5,0,0,1,5,5V37.724a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V5A5,5,0,0,1,5,0Z" transform="translate(9 6)" fill="#16b53a"/>
+        </g>
+        <path id="Icon_awesome-lock" data-name="Icon awesome-lock" d="M14.491,8.115h-.869V5.507a5.507,5.507,0,1,0-11.014,0V8.115H1.739A1.739,1.739,0,0,0,0,9.854V16.81a1.739,1.739,0,0,0,1.739,1.739H14.491A1.739,1.739,0,0,0,16.23,16.81V9.854A1.739,1.739,0,0,0,14.491,8.115Zm-3.768,0H5.507V5.507a2.608,2.608,0,0,1,5.217,0Z" transform="translate(53.945 10.628)" fill="#fff"/>
+      </g>
+      <text id="Confirm_payment" data-name="Confirm payment" transform="translate(86.377 28.159)" fill="#fff" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="0">Confirm payment</tspan></text>
+    </g>
+    <g id="round-arrow_back_ios-24px" transform="translate(737.157 710.228) rotate(180)">
+      <g id="Bounding_Boxes" transform="translate(0 0)">
+        <path id="Path_5" data-name="Path 5" d="M0,0H20.476V20.476H0Z" transform="translate(0 0)" fill="none" opacity="0.87"/>
+      </g>
+    </g>
+  </g>
+</svg>

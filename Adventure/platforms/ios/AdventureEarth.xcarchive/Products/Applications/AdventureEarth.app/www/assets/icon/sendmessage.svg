@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="302.621" height="60.724" viewBox="0 0 302.621 60.724">
+  <defs>
+    <filter id="Rectangle_1" x="0" y="0" width="302.621" height="60.724" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_2824" data-name="Group 2824" transform="translate(-532.379 -672.982)">
+    <g id="Group_2695" data-name="Group 2695" transform="translate(541.379 678.982)">
+      <g id="Symbol_65_16" data-name="Symbol 65 – 16" transform="translate(0)">
+        <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_1)">
+          <rect id="Rectangle_1-2" data-name="Rectangle 1" width="284.621" height="42.724" rx="5" transform="translate(9 6)" fill="#1b75bb"/>
+        </g>
+      </g>
+      <text id="Send_a_message" data-name="Send a message" transform="translate(82.377 28.159)" fill="#fff" font-size="16" font-family="ArialMT, Arial"><tspan x="0" y="0">Send a message</tspan></text>
+    </g>
+  </g>
+</svg>

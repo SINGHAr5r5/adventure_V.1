@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="lock" unicode="&#xe800;" d="M781 413h-47v140a297 297 0 1 1-593 0v-140h-47a94 94 0 0 1-94-94v-375a94 94 0 0 1 94-94h687a94 94 0 0 1 94 94v375a94 94 0 0 1-94 94z m-203 0h-281v140a141 141 0 0 0 281 0z" horiz-adv-x="875" />
+
+<glyph glyph-name="ticket" unicode="&#xe801;" d="M333 600h834v-500h-834z m1042-250a125 125 0 0 1 125-125v-250a125 125 0 0 0-125-125h-1250a125 125 0 0 0-125 125v250a125 125 0 0 1 0 250v250a125 125 0 0 0 125 125h1250a125 125 0 0 0 125-125v-250a125 125 0 0 1-125-125z m-125 271a63 63 0 0 1-63 62h-875a63 63 0 0 1-62-62v-541a63 63 0 0 1 62-63h875a63 63 0 0 1 63 63z" horiz-adv-x="1500" />
+
+<glyph glyph-name="info" unicode="&#xe802;" d="M500 850a500 500 0 1 1 500-500 500 500 0 0 1-500 500z m0-222a85 85 0 1 0-85-84 85 85 0 0 0 85 84z m113-512a24 24 0 0 0-24-24h-178a24 24 0 0 0-24 24v49a24 24 0 0 0 24 24h25v129h-25a24 24 0 0 0-24 24v48a24 24 0 0 0 24 25h129a24 24 0 0 0 25-25v-201h24a24 24 0 0 0 24-24z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

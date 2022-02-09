@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="icon-ionic-ios-heart" unicode="&#xe803;" d="M760 850h-2a284 284 0 0 1-238-130 284 284 0 0 1-237 130h-3a283 283 0 0 1-280-282 609 609 0 0 1 120-332c150-206 400-386 400-386s250 180 401 386a609 609 0 0 1 119 332 283 283 0 0 1-280 282z" horiz-adv-x="1040" />
+</font>
+</defs>
+</svg>

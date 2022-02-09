@@ -1,0 +1,73 @@
+{
+  "_from": "cordova-plugin-analytics",
+  "_id": "cordova-plugin-analytics@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-cZo0PT8GXF77SCuerBjeEngdZ3Ic0HuOGmRkzdj7pOx/gYSW8b/EZE+tHkBiUzFCaPTfVwjJfK5QonoAsUGO8Q==",
+  "_location": "/cordova-plugin-analytics",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-analytics",
+    "name": "cordova-plugin-analytics",
+    "escapedName": "cordova-plugin-analytics",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-analytics/-/cordova-plugin-analytics-2.0.0.tgz",
+  "_shasum": "2f726c8e5a01a2daabad255b2d6371b13c540ed6",
+  "_spec": "cordova-plugin-analytics",
+  "_where": "/Users/ibcdev/Desktop/AENew",
+  "author": {
+    "name": "AppFeel"
+  },
+  "bugs": {
+    "url": "https://github.com/appfeel/analytics-google/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-analytics",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Phonegap, Cordova, Ionic, Intel XDK Google Analytics Firebase plugin for iOS/Android with full support for views, events, timings, ecommerce and social.",
+  "engines": {
+    "name": "cordova",
+    "version": ">=4.0.0"
+  },
+  "homepage": "https://github.com/appfeel/analytics-google#readme",
+  "keywords": [
+    "analytics",
+    "google",
+    "metrics",
+    "event",
+    "screen",
+    "ecommerce",
+    "ua",
+    "universal analytics",
+    "universal",
+    "referral",
+    "download",
+    "install",
+    "track",
+    "tracking",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-analytics",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appfeel/analytics-google.git"
+  },
+  "version": "2.0.0"
+}

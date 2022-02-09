@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="79.581" height="22.953" viewBox="0 0 79.581 22.953">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3dc73d"/>
+      <stop offset="1" stop-color="#32914e"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1904" data-name="Group 1904" transform="translate(-327 -251)">
+    <rect id="Rectangle_1650" data-name="Rectangle 1650" width="79.581" height="22.953" rx="11.477" transform="translate(327 251)" fill="url(#linear-gradient)"/>
+    <text id="Let_s_Go" data-name="Let’s Go" transform="translate(358.046 266.901)" fill="#fff" font-size="13" font-family="ArialMT, Arial"><tspan x="-24.089" y="0">Let’s Go</tspan></text>
+    <g id="round-directions_car-24px" transform="translate(383.555 254.961)">
+      <g id="Bounding_Boxes">
+        <path id="Path_948" data-name="Path 948" d="M0,0H18.992V18.992H0Z" fill="none"/>
+      </g>
+      <g id="Rounded" transform="translate(2.374 3.957)">
+        <path id="Path_949" data-name="Path 949" d="M13.056,5.638a.944.944,0,0,0-.9-.638H5.211a.95.95,0,0,0-.9.638L3.069,9.219A1.312,1.312,0,0,0,3,9.636v4.523a.946.946,0,0,0,.947.947h0a.946.946,0,0,0,.947-.947v-.316h7.58v.316a.95.95,0,0,0,.947.947h0a.95.95,0,0,0,.947-.947V9.636a1.342,1.342,0,0,0-.069-.417Zm-7.845,6.31A.947.947,0,1,1,6.158,11,.946.946,0,0,1,5.211,11.948Zm6.948,0A.947.947,0,1,1,13.106,11,.946.946,0,0,1,12.159,11.948ZM4.263,8.79l.8-2.413a.64.64,0,0,1,.6-.43H11.7a.64.64,0,0,1,.6.43l.8,2.413Z" transform="translate(-1.563 -6.723)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

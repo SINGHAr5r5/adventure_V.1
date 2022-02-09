@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="97" height="22" viewBox="0 0 97 22">
+  <g id="Group_3177" data-name="Group 3177" transform="translate(-192 -646)">
+    <rect id="Rectangle_2460" data-name="Rectangle 2460" width="97" height="22" rx="5" transform="translate(192 646)" fill="#16b53a"/>
+    <path id="Icon_awesome-map-marked-alt" data-name="Icon awesome-map-marked-alt" d="M7.875,0A3.445,3.445,0,0,0,4.43,3.445c0,1.538,2.252,4.342,3.114,5.36a.431.431,0,0,0,.662,0c.863-1.018,3.114-3.822,3.114-5.36A3.445,3.445,0,0,0,7.875,0Zm0,4.594A1.148,1.148,0,1,1,9.024,3.445,1.148,1.148,0,0,1,7.875,4.594ZM.55,5.9A.875.875,0,0,0,0,6.717v6.845a.438.438,0,0,0,.6.406L4.375,12.25V5.877a8.281,8.281,0,0,1-.581-1.269Zm7.325,3.93a1.307,1.307,0,0,1-1-.464c-.538-.634-1.109-1.357-1.627-2.1V12.25L10.5,14V7.273c-.517.741-1.089,1.463-1.627,2.1A1.307,1.307,0,0,1,7.875,9.835ZM15.15,4.407,11.375,6.125V14L15.2,12.47a.875.875,0,0,0,.55-.812V4.813A.438.438,0,0,0,15.15,4.407Z" transform="translate(204.375 649)" fill="#fff"/>
+    <text id="Location" transform="translate(225 662)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="ArialMT, Arial"><tspan x="0" y="0">Location</tspan></text>
+  </g>
+</svg>

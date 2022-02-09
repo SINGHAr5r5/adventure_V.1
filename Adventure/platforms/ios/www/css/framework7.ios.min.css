@@ -1,0 +1,185 @@
+/* 
+.swiper-container .swiper-notification {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  opacity: 0;
+  z-index: -1000
+} */
+
+.notification {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 20000;
+  font-size: 14px;
+  margin: 0;
+  border: none;
+  display: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  direction: ltr
+}
+
+.notification-icon {
+  position: relative;
+  font-size: 0
+}
+
+.notification-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center
+}
+
+.notification-close-button {
+  margin-left: auto;
+  cursor: pointer
+}
+
+html.with-statusbar.device-ios .notification, html.with-statusbar:not(.device-ios):not(.device-android) .notification {
+  margin-top: 20px
+}
+
+html.with-statusbar.device-android .notification, html.with-statusbar.md:not(.device-ios):not(.device-android) .notification {
+  margin-top: 24px
+}
+
+html.with-statusbar.device-iphone-x .notification {
+  margin-top: constant(safe-area-inset-top);
+  margin-top: env(safe-area-inset-top)
+}
+
+ .notification {
+  left: 8px;
+  top: 8px;
+  width: calc(100% - 16px);
+  background: rgba(250, 250, 250, .95);
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 5px 25px -10px rgba(0, 0, 0, .7);
+  box-shadow: 0px 5px 25px -10px rgba(0, 0, 0, .7);
+  padding: 10px !important;
+  color: #000;
+  max-width: 568px;
+  -webkit-transition-duration: 450ms;
+  transition-duration: 450ms;
+  -webkit-transform: translate3d(0%, -200%, 0);
+  transform: translate3d(0%, -200%, 0)
+}
+
+/* @supports ((-webkit-backdrop-filter:blur(10px)) or (backdrop-filter:blur(10px))) {
+   .notification {
+    background: rgba(255, 255, 255, .65);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px)
+  }
+} */
+
+@media (min-width:584px) {
+   .notification {
+    left: 50%;
+    width: 568px;
+    margin-left: -284px
+  }
+}
+
+ .notification.modal-in {
+  -webkit-transform: translate3d(0%, 0%, 0);
+  transform: translate3d(0%, 0%, 0);
+  opacity: 1
+}
+
+ .notification.modal-out {
+  -webkit-transform: translate3d(0%, -200%, 0);
+  transform: translate3d(0%, -200%, 0)
+}
+
+ .notification-icon {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  margin-right: 8px !important;
+}
+
+ .notification-icon i {
+  width: 20px;
+  height: 20px;
+  font-size: 20px
+}
+
+ .notification-title {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: .02em
+}
+
+ .notification-subtitle {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.35
+}
+
+ .notification-text {
+  font-size: 15px;
+  line-height: 1.2
+}
+
+ .notification-header+.notification-content {
+  margin-top: 10px !important;
+}
+
+ .notification-title-right-text {
+  color: #444a51;
+  font-size: 13px;
+  margin-right: 6px !important;
+  margin-left: auto !important;
+}
+
+ .notification-title-right-text+.notification-close-button {
+  margin-left: 10px  !important;
+}
+
+ .notification-close-button {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D'0%200%2044%2044'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Cg%20stroke%3D'none'%20stroke-width%3D'1'%20fill%3D'none'%20fill-rule%3D'evenodd'%3E%3Cpath%20d%3D'M22.5%2C20.3786797%20L14.7218254%2C12.6005051%20L12.6005051%2C14.7218254%20L20.3786797%2C22.5%20L12.6005051%2C30.2781746%20L14.7218254%2C32.3994949%20L22.5%2C24.6213203%20L30.2781746%2C32.3994949%20L32.3994949%2C30.2781746%20L24.6213203%2C22.5%20L32.3994949%2C14.7218254%20L30.2781746%2C12.6005051%20L22.5%2C20.3786797%20Z%20M22%2C44%20C34.1502645%2C44%2044%2C34.1502645%2044%2C22%20C44%2C9.8497355%2034.1502645%2C0%2022%2C0%20C9.8497355%2C0%200%2C9.8497355%200%2C22%20C0%2C34.1502645%209.8497355%2C44%2022%2C44%20Z'%20fill%3D'%23000000'%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  width: 20px;
+  height: 20px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  position: relative;
+  opacity: .3;
+  -webkit-transition-duration: .3s;
+  transition-duration: .3s
+}
+
+ .notification-close-button.active-state {
+  -webkit-transition-duration: 0s;
+  transition-duration: 0s;
+  opacity: .1
+}
+
+ .notification-close-button:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 44px;
+  height: 44px;
+  margin-left: -22px;
+  margin-top: -22px
+}
